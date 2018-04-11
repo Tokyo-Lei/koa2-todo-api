@@ -8,6 +8,8 @@
 
 > 3. 新建数据库mongoosetest
 
+> 4. 接下来的操作你们都懂😏~
+
 总结Schema、Model、Entity的关系:
 
 Schema ： 一种以文件形式存储的数据库模型骨架，不具备数据库的操作能力
