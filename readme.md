@@ -1,6 +1,6 @@
-### 利用node环境下利用mongoose 实现对mongodb的增删改查 推荐一个MAC好用的可视化工具
+### 利用node环境下利用mongoose 实现对mongodb的增删改查 
 
-**Robo 3T**
+**推荐一个MAC好用的可视化工具 Robo 3T**
 
 1. 启动可视化工具
 
