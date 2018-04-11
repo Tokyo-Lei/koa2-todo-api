@@ -2,11 +2,11 @@
 
 **推荐一个MAC好用的可视化工具 Robo 3T**
 
-1. 启动可视化工具
+> 1. 启动可视化工具
 
-2. 连接数据库（前提是已经启动了mongo数据库）
+> 2. 连接数据库（前提是已经启动了mongo数据库）
 
-3. 新建数据库mongoosetest
+> 3. 新建数据库mongoosetest
 
 总结Schema、Model、Entity的关系:
 
@@ -19,8 +19,8 @@ Entity ： 由Model创建的实体，他的操作也会影响数据库
 Schema、Model、Entity的关系是：Schema生成Model，Model创造Entity，Model和Entity都可对数据库操作造成影响，但Model比Entity更具操作性。
 
 ### Features
-1. 接下会结合koa2,去实现一个对数据的增删改查的数据接口
+> 1. 接下会结合koa2,去实现一个对数据的增删改查的数据接口
 
-2. 部署到阿里云
+> 2. 部署到阿里云
 
-3. .....
+> 3. .....
