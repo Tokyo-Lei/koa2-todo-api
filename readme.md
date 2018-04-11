@@ -21,7 +21,7 @@ Entity ： 由Model创建的实体，他的操作也会影响数据库
 Schema、Model、Entity的关系是：Schema生成Model，Model创造Entity，Model和Entity都可对数据库操作造成影响，但Model比Entity更具操作性。
 
 ### Features
-> 1. 接下会结合koa2,去实现一个对数据的增删改查的数据接口
+> 1. 接下会结合koa2,去实现一个对mongodb的增删改查的数据接口
 
 > 2. 部署到阿里云
 
