@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^5.0.14"
+    "ejs": "^2.5.9",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "mongoose": "^5.0.16",
+    "node-fetch": "^2.1.2"
   }
 }

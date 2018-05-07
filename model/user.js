@@ -4,8 +4,6 @@ const mongoose = require('./../db.js');
 const userSchema = mongoose.Schema({
     username: String,
     password: String,
-    age: Number,
-    loginDate: Date,
 });
 
 //根据schema生成model

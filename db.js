@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // 设置数据库地址
-const DB_URL = 'mongodb://localhost:27017/mongoosetest';
+const DB_URL = 'mongodb://localhost:27017/login';
 
 // 连接数据库
 mongoose.connect(DB_URL);

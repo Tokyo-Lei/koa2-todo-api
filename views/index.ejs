@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <p>EJS Welcome to
+        <%= title %>
+    </p>
+    <div>
+        <form action="/api/save" method="post">
+            <h1>到达战场</h1>
+            <input type="text" name="username" placeholder="请输入用户名：user">
+            <input type="password" name="password" placeholder="请输入密码：111">
+            <button>GoGoGo</button>
+        </form>
+    </div>
+</body>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./../fetchData.js"></script>
+<script>
+    // $.ajax({
+    //     url: 'http://localhost:3000/api/find',
+    //     success: function (data) {
+    //         console.log(data);
+    //     }
+    // });
+    // $.ajax({
+    //     url: 'https://t200metting.toon.mobi' + url,
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     type: 'post',
+    //     dataTyle: 'JSON',
+    //     data: JSON.stringify(_param),
+    //     success: function (data) {
+    //         console.log(data);
+    //         if (data.meta.code === 0) {
+    //             _callback(data.data);
+    //         }else{
+    //             choujiang.error(data.meta.message);
+    //             console.error(data.meta.message);
+    //         }
+    //     }
+    // });
+
+</script>
+</html>
