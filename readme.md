@@ -17,7 +17,7 @@
 
 > 开发流程介绍
 
-本地代码开发测试后，然后通过pm2部署远程服务器，并在3000端口进行监听, 然后配置Nginx, 实现接口代理转发。
+本地代码开发测试后，然后通过pm2部署远程服务器，并在3000端口进行监听, 然后配置Nginx, 实现接口代理转发。
 
 >Build Setup
 
@@ -25,7 +25,7 @@
 # install dependencies
 npm install
 
-# Setup mongodb
+# Setup mongodb
 mongod --dbpath XXX
 
 # serve with hot reload at localhost:3080
